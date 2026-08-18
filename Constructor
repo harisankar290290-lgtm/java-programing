@@ -1,0 +1,11 @@
+class Student
+{
+    String name;
+    int age;
+
+    static
+    {
+        name = "ABCD";
+        age = 12;
+    }
+}
