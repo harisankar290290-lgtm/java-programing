@@ -1,0 +1,31 @@
+class Functions {
+int add(int a, int b) {
+return a + b;
+}
+
+void display() {
+System.out.println("Hello Java");
+}
+
+void square(int n) {
+System.out.println("Square = " + (n * n));
+}
+
+int getNumber() {
+return 10;
+}
+
+public static void main(String[] args) {
+Functions f = new Functions();
+
+int result = f.add(10, 20);
+System.out.println("Addition = " + result);
+
+f.display();
+
+f.square(5);
+
+int num = f.getNumber();
+System.out.println("Number = " + num);
+}
+}
